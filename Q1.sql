@@ -10,4 +10,4 @@ SELECT last_name, salary, 12*salary+100 FROM employees;
 
 //Using Column Aliases
 SELECT last_name AS name,  commission_pct comm FROM employees;
-// SELECT last_name "Name", salary*12 "Annual Salary" FROM employees;
+SELECT last_name "Name", salary*12 "Annual Salary" FROM employees;
